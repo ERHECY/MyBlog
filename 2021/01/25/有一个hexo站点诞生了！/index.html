@@ -47,8 +47,8 @@
   
 
   
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <meta name="generator" content="Hexo 5.3.0"></head>
     <body>
         <nav id="theme-nav">
@@ -113,6 +113,15 @@
         <p><img src="https://dll.mmcee.cn/typecho/uploads/2020/10/1561538646.png" alt="img"></p>
 <p>测试图片</p>
 
+<div id="gitalk-container"></div>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+		<script>
+		var gitalkConfig = {"clientID":"7ef68faf1e8c1e94856b","clientSecret":"39f5eed72dcefd98447c2cb5196425225b6524d6","repo":"https://github.com/ERHECY/MyBlog","owner":"https://github.com/ERHECY","admin":["ERHECY"],"distractionFreeMode":false};
+	    gitalkConfig.id = md5(location.pathname);
+		var gitalk = new Gitalk(gitalkConfig);
+	    gitalk.render("gitalk-container");
+	    </script>
     </div>
 
     <div class="about">
@@ -120,26 +129,10 @@
         <p>This post is written by Erhecy, licensed under <a
                 target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
     </div>
-
+    <div class="container">
+        <div id="gitalk-container"></div>
+    </div>
     
-        
-        <div class="container">
-            <div id="waline"></div>
-            <script>
-                new Waline({
-                    el: "#waline",
-                    
-                    path: location.pathname,
-                    
-                    serverURL: 'https://blog.mmcee.cn/',
-                    
-                    lang: 'zh-CN',
-                    
-                    placeholder: '',
-                    
-                });
-            </script>
-        </div>
         
     
 </article>
