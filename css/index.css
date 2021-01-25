@@ -30,5 +30,6 @@
     }
     .hero .large {
         font-size: 84px;
+        word-break: break-all;
     }
 }
