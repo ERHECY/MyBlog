@@ -47,6 +47,8 @@
   
 
   
+    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+  
 <meta name="generator" content="Hexo 5.3.0"></head>
     <body>
         <nav id="theme-nav">
@@ -127,6 +129,24 @@
     </div>
 
     
+        
+        <div class="container">
+            <div id="waline"></div>
+            <script>
+                new Waline({
+                    el: "#waline",
+                    
+                    path: location.pathname,
+                    
+                    serverURL: 'https://blog.mmcee.cn/',
+                    
+                    lang: 'zh-CN',
+                    
+                    placeholder: '',
+                    
+                });
+            </script>
+        </div>
         
     
 </article>
