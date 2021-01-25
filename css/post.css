@@ -75,3 +75,9 @@ body {
 .about h1 {
     margin: 0;
 }
+.gitalk-container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
+}
