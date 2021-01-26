@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Erhecy&#39;s blog</title>
+  
+  <subtitle>HelloWorld</subtitle>
+  <link href="http://blog.mmcee.cn/atom.xml" rel="self"/>
+  
+  <link href="http://blog.mmcee.cn/"/>
+  <updated>2021-01-26T08:02:31.726Z</updated>
+  <id>http://blog.mmcee.cn/</id>
+  
+  <author>
+    <name>Erhecy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又一个hexo站点诞生了</title>
+    <link href="http://blog.mmcee.cn/2021/01/25/%E5%8F%88%E4%B8%80%E4%B8%AAhexo%E7%AB%99%E7%82%B9%E8%AF%9E%E7%94%9F%E4%BA%86-post/"/>
+    <id>http://blog.mmcee.cn/2021/01/25/%E5%8F%88%E4%B8%80%E4%B8%AAhexo%E7%AB%99%E7%82%B9%E8%AF%9E%E7%94%9F%E4%BA%86-post/</id>
+    <published>2021-01-25T11:51:31.000Z</published>
+    <updated>2021-01-26T08:02:31.726Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-hexo！"><a href="#Hello-hexo！" class="headerlink" title="Hello hexo！"></a>Hello hexo！</h1><p>这是我第一次使用hexo搭建站点,还是有很多不熟练的地方。</p><p>本站点使用的主题是：<a href="https://github.com/MrWillCom/hexo-theme-cupertino">Cupertino</a> 自行修改过后的主题。</p><p>添加了首页背景</p><p>使用了<a href="https://github.com/gitalk/gitalk">Gitalk</a> 作为评论系统 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hello-hexo！&quot;&gt;&lt;a href=&quot;#Hello-hexo！&quot; class=&quot;headerlink&quot; title=&quot;Hello hexo！&quot;&gt;&lt;/a&gt;Hello hexo！&lt;/h1&gt;&lt;p&gt;这是我第一次使用hexo搭建站点,还是有很多不熟练的地方。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
