@@ -6,7 +6,7 @@
   <link href="http://blog.mmcee.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.mmcee.cn/"/>
-  <updated>2021-01-26T08:02:31.726Z</updated>
+  <updated>2021-01-26T09:03:22.551Z</updated>
   <id>http://blog.mmcee.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始接触Python</title>
+    <link href="http://blog.mmcee.cn/2021/01/26/%E5%BC%80%E5%A7%8B%E6%8E%A5%E8%A7%A6Python-post/"/>
+    <id>http://blog.mmcee.cn/2021/01/26/%E5%BC%80%E5%A7%8B%E6%8E%A5%E8%A7%A6Python-post/</id>
+    <published>2021-01-26T08:42:18.000Z</published>
+    <updated>2021-01-26T09:03:22.551Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于python"><a href="#关于python" class="headerlink" title="关于python"></a>关于python</h2><p> Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。</p><p>Python 的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。</p><ul><li><p>Python 是一种解释型语言： 这意味着开发过程中没有了编译这个环节。类似于PHP和Perl语言。</p></li><li><p>Python 是交互式语言： 这意味着，您可以在一个 Python 提示符 &gt;&gt;&gt; 后直接执行代码。</p></li><li><p>Python 是面向对象语言: 这意味着Python支持面向对象的风格或代码封装在对象的编程技术。</p></li><li><p>Python 是初学者的语言：Python 对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到 WWW 浏览器再到游戏。</p></li></ul><p><a href="https://www.runoob.com/python3/python3-intro.html">介绍来源</a></p><h2 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h2><p>首先python官网 <a href="https://www.python.org/">https://www.python.org/</a> 下载python</p><p>开始安装 </p><p><img src="/img/python_install.png" alt="python_install"></p><p>非常简单点击Install Now就开始了。</p><h2 id="试玩python"><a href="#试玩python" class="headerlink" title="试玩python"></a>试玩python</h2><p>打开cmd，输入py就可以运行了</p><p><img src="/img/python_play.png" alt="python_install"></p><h2 id="学习python"><a href="#学习python" class="headerlink" title="学习python"></a>学习python</h2><p>目前我是在<a href="https://www.bilibili.com/">bilibili</a>学习的python，还是处于萌新的阶段，期待后面的课程。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;关于python&quot;&gt;&lt;a href=&quot;#关于python&quot; class=&quot;headerlink&quot; title=&quot;关于python&quot;&gt;&lt;/a&gt;关于python&lt;/h2&gt;&lt;p&gt; Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>又一个hexo站点诞生了</title>
