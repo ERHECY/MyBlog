@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.mmcee.cn/2021/01/30/Python%E7%9A%84%E7%A5%9E%E5%A5%87%E8%AF%AD%E6%B3%95-post/</loc>
+    
+    <lastmod>2021-01-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.mmcee.cn/2021/01/26/%E5%BC%80%E5%A7%8B%E6%8E%A5%E8%A7%A6Python-post/</loc>
     
     <lastmod>2021-01-26</lastmod>
@@ -39,7 +46,7 @@
 
   <url>
     <loc>http://blog.mmcee.cn/</loc>
-    <lastmod>2021-01-26</lastmod>
+    <lastmod>2021-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
