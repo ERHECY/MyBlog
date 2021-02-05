@@ -49,8 +49,9 @@
   
   <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <link href="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.5.0/styles/arduino-light.min.css" rel="stylesheet">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
+  <script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
 
 <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Erhecy's blog" type="application/atom+xml">
 </head>
@@ -67,7 +68,7 @@
             
             
             
-            <a class="nav-item" href="/Friends">Friends</a>
+            <a class="nav-item" href="/friends">Friends</a>
             
             
             
@@ -140,6 +141,13 @@
         
     
 </article>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('td.code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+  </script>
         <footer>
     <div class="inner">
         <div class="links">
@@ -151,7 +159,7 @@
                 
                 <a href="/archives" class="item" target="_blank">Archives</a>
                 
-                <a href="/Friends" class="item" target="_blank">Friends</a>
+                <a href="/friends" class="item" target="_blank">Friends</a>
                 
                 <a href="/projects" class="item" target="_blank">Projects</a>
                 

@@ -17,7 +17,7 @@ nav:
   items:
     # these items will display as a link
     Archives: /archives
-    Friends: /Friends
+    Friends: /friends
     Projects: /projects
     About: /about
     # these will be automatically be an icon
@@ -30,7 +30,7 @@ footer:
     # the items after the title, display as links
     Blog: /
     Archives: /archives
-    Friends: /Friends
+    Friends: /friends
     Projects: /projects
     About: /about
     RSS: /atom.xml

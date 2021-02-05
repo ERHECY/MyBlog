@@ -84,3 +84,10 @@
         <% } %>
     <% } %>
 </article>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('td.code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+  </script>
