@@ -1,8 +1,8 @@
 {
     "dir": "ltr",
     "lang": "zh-CN",
-    "name": "Mr. Will",
-    "short_name": "Mr. Will",
+    "name": "Erhecy's blog",
+    "short_name": "Erhecy's blog",
     "scope": "/",
     "display": "fullscreen",
     "start_url": "https://blog.mmcee.cn/",
