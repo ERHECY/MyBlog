@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "zh-CN",
+    "name": "Mr. Will",
+    "short_name": "Mr. Will",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://blog.mmcee.cn/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://blog.mmcee.cn/",
+    "screenshots": []
+}
