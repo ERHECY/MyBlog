@@ -33,9 +33,7 @@ no_comments: true
             <a class="action-button-primary" href="https://crash-logs.cn/">Visit</a>
         </div>
     </div>
-</div>
-<div class="card-grid">
-    <div class="card">
+        <div class="card">
         <div class="cover-img">
             <img src="https://files.catbox.moe/xaxavz.JPG " alt="客栈">
         </div>
@@ -48,6 +46,7 @@ no_comments: true
         </div>
     </div>
 </div>
+
 ## 和我成为朋友
 
 既然要成为朋友不如先加个QQ吧：`1981324730`
