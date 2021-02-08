@@ -34,7 +34,20 @@ no_comments: true
         </div>
     </div>
 </div>
-
+<div class="card-grid">
+    <div class="card">
+        <div class="cover-img">
+            <img src="https://files.catbox.moe/xaxavz.JPG " alt="客栈">
+        </div>
+        <div class="content">
+            <p class="title">客栈</p>
+            <p class="description">崩溃乃重生之母</p>
+        </div>
+        <div class="actions">
+            <a class="action-button-primary" href="http://blog.neko25.ml">Visit</a>
+        </div>
+    </div>
+</div>
 ## 和我成为朋友
 
 既然要成为朋友不如先加个QQ吧：`1981324730`

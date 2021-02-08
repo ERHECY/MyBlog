@@ -50,7 +50,8 @@
   <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
+  <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css">
+  <script src="//cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js"></script>
 
 <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Erhecy's blog" type="application/atom+xml">
 </head>
@@ -156,7 +157,36 @@
         
     
 </article>
-
+<script>
+      var trim_indent = true;
+  var line_number = true;
+  // enable highlight
+  $('pre code').each(function(i, block) {
+    var texts = $(this).text().split('\n');
+     // trim indent
+     if (trim_indent){
+      var tab = texts[0].match(/^\s{0,}/);
+      if (tab) {
+        var arr = [];
+        texts.forEach(function(temp) {
+          arr.push(temp.replace(tab, ''));
+        });
+        $(this).text(arr.join('\n'));
+      }
+    }
+    // add line number
+    if (line_number) {
+      console.log("show line number in front-end");
+      var lines = texts.length - 1;
+      var $numbering = $('<ul/>').addClass('pre-numbering');
+      $(this).addClass('has-numbering').parent().append($numbering);
+      for (i = 1; i <= lines; i++) {
+        $numbering.append($('<li/>').text(i));
+      }
+    }
+    // hightlight
+    hljs.highlightBlock(block);
+</script>
         <footer>
     <div class="inner">
         <div class="links">
