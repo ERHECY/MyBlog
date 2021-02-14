@@ -33,7 +33,7 @@ no_comments: true
             <a class="action-button-primary" href="https://crash-logs.cn/">Visit</a>
         </div>
     </div>
-        <div class="card">
+     <div class="card">
         <div class="cover-img">
             <img src="https://files.catbox.moe/xaxavz.JPG " alt="客栈">
         </div>
@@ -43,6 +43,18 @@ no_comments: true
         </div>
         <div class="actions">
             <a class="action-button-primary" href="http://blog.neko25.ml">Visit</a>
+        </div>
+    </div>
+         <div class="card">
+        <div class="cover-img">
+            <img src="https://en.gravatar.com/userimage/153708519/04635acffbb0ae7f235603aa4cf17643.png" alt="客栈">
+        </div>
+        <div class="content">
+            <p class="title">云蕴</p>
+            <p class="description">云蕴的博客</p>
+        </div>
+        <div class="actions">
+            <a class="action-button-primary" href="https://blog.cloudyun.xyz/">Visit</a>
         </div>
     </div>
 </div>
